@@ -1,4 +1,6 @@
 # Spotify Custom Playlist Creator
+This is an implementation without using Spotipy python module, solely Spotify api.
+
 This code provides a way to create a playlist on Spotify using Billboard's top songs for a specific period. It retrieves the top songs from Billboard's website for a given date and uses the Spotify API to create a playlist and add those songs to it.
 
 The Billboard class is responsible for retrieving the top songs from Billboard's website. It uses the requests library to fetch the webpage, parses it using BeautifulSoup, and extracts the song titles. The retrieved song titles are stored in the labels attribute.
